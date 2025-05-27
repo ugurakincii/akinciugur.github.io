@@ -1,22 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ugur Akinci</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>akinciugur.com</title>
+  <style>
+    body {
+      background-color: #eeeeee;
+      color: #000;
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    }
+    header {
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+    }
+    article {
+      margin: 30px 0;
+    }
+    article h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    article time {
+      font-size: 12px;
+      color: #666;
+    }
+    article p {
+      line-height: 1.6;
+    }
+    footer {
+      font-size: 12px;
+      color: #999;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
-  <div class="min-h-screen flex flex-col items-center justify-center p-6">
-    <div class="bg-white shadow-xl rounded-2xl p-8 max-w-md w-full text-center">
-      <h1 class="text-3xl font-bold mb-2">Ugur Akinci</h1>
-      <p class="text-gray-600 mb-4">Software Engineer | Java, Spring, Distributed Systems</p>
-      <p class="text-sm mb-6">Welcome to my personal site! I love building scalable backend systems and exploring tech like Spring Boot, Kafka, Redis, and GitHub Actions.</p>
-      <div class="space-x-4">
-        <a href="https://github.com/ugurakincii" target="_blank" class="text-blue-600 hover:underline">GitHub</a>
-        <a href="mailto:ugurakinci@outlook.com" class="text-blue-600 hover:underline">Email</a>
-      </div>
-    </div>
+<body>
+  <div class="container">
+    <header>
+      <h1>akinciugur.com</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Archive</a>
+      </nav>
+    </header>
+
+    <article>
+      <h2><a href="#">Apple’s WWDC Rumors Heating Up</a></h2>
+      <time>May 27, 2025</time>
+      <p>Interesting take: the M4 chips might debut earlier than expected, according to recent supply chain reports.</p>
+      <p>— Ugur Akinci</p>
+    </article>
+
+    <article>
+      <h2><a href="#">Why Simplicity Beats Performance in Engineering</a></h2>
+      <time>May 26, 2025</time>
+      <p>Good design is often less about speed, more about control. Let’s talk about API architecture and what not to over-optimize.</p>
+    </article>
+
+    <footer>
+      &copy; 2025 Ugur Akinci. All rights reserved.
+    </footer>
   </div>
 </body>
 </html>
